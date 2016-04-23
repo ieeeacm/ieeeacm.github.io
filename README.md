@@ -1,2 +1,2 @@
-# ieee-website2016
-MIT IEEE/ACM Club Website 2016
+# ieeeacm.github.io
+MIT IEEE/ACM Club Website
