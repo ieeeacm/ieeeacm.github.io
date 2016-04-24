@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,15 +35,15 @@
 	<!-- Header -->
   <nav class="z-depth-0">
     <div class="nav-wrapper">
-      <a href="/club/" class="brand-logo"><img class="logo hide-on-med-and-down" src="images/logo-white.png"></a>
+      <a href="index.html" class="brand-logo"><img class="logo hide-on-med-and-down" src="images/logo-white.png"></a>
       <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="/club/">HOME</a></li>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="blog.php">BLOG</a></li>
         <li><a href="programs.html">PROGRAMS</a></li>
       </ul>
       <ul class="side-nav" id="mobile-nav">
-        <li><a href="/club/">HOME</a></li>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="blog.php">BLOG</a></li>
         <li><a href="programs.html">PROGRAMS</a></li>
       </ul>
@@ -115,11 +118,9 @@
       <div class="col s12" id="blog-post">
         <h5 class="blog-label">LATEST BLOG POST</h5>
         <div class="divider hide-on-med-and-up"></div>
-        <?php 
-        $template = "Home";
-        $number = "1";
-        include("blog/show_news.php");
-        ?>
+
+
+
         <h5 class="right-align"><a href="blog.php" class="blog-btn">See the full blog</a></h5>
         <div class="divider"></div>
       </div>
@@ -133,7 +134,7 @@
               <img src='images/exec/{{this.image}}'>
             </div>
             <div class="card-content">
-              <p class="exec-name flow-text">{{this.name}}</h6>
+              <p class="exec-name flow-text">{{this.name}}</p>
               <p class="exec-title">{{this.position}}</p>
             </div>
           </div>
