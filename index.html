@@ -118,8 +118,8 @@
     <div class="col s12" id="blog-post">
       <h5 class="blog-label">LATEST BLOG POST</h5>
       {% for post in site.posts limit:1 %}
-      <div class="post">
-        <h3 class="post-title">{{ post.title }}</h3>
+      <a class="post">
+        <a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
 
         <p class="post-details flow-text">{{ post.date | date: "%b %-d, %Y" }}</p>
         {{ post.content }}

@@ -6242,10 +6242,10 @@ nav {
   opacity: .54;
   margin-top: -15px; }
 
-.post div img {
+.post img {
   max-width: 100%;
   height: auto !important; }
-  .post div img[style] {
+  .post img[style] {
     max-width: 100%;
     height: auto !important; }
 
