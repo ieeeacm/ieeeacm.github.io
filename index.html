@@ -115,10 +115,16 @@
   <div class="row section">
     <div class="col s12" id="blog-post">
       <h5 class="blog-label">LATEST BLOG POST</h5>
+      {% for post in site.posts limit:1 %}
+      <div class="post">
+        <h3 class="post-title">{{ post.title }}</h3>
+
+        <p class="post-details flow-text">{{ post.date }}</p>
+        {{ post.content }}
+
+      </div>
+      {% endfor %}
       <div class="divider hide-on-med-and-up"></div>
-
-
-
       <h5 class="right-align"><a href="blog.html" class="blog-btn">See the full blog</a></h5>
       <div class="divider"></div>
     </div>
