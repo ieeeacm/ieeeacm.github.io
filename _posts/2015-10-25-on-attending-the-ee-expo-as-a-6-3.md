@@ -1,3 +1,8 @@
+---
+layout: post
+title: "On Attending the EE Expo as a 6-3"
+date: "2015-10-25"
+---
 The EE Expo happened last week, and it was a ton of fun and somewhat of a bittersweet experience being there to photograph it as a 6-3. All the company presentations and the networking fair got everyone really exicted, but as a 6-3, I probably won’t be able to work on these projects, unless I switch to a more EE focus in the future.
 
 I missed the first half of the expo, but was there for company presentations and the networking fair, which I thought were the main parts of the expo.
