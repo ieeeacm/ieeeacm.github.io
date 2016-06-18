@@ -1,0 +1,8 @@
+<div class="post">
+    <a href="{{ include.post.url }}" class="post-link"><h3 class="post-title">{{ include.post.title }}</h3></a>
+
+    <p class="post-details flow-text">{{ include.post.date | date: "%b %-d, %Y" }}</p>
+    {{ include.post.excerpt }}
+    <h6 class="read-more"><a href="{{ include.post.url }}">Read more...</a></h6>
+
+</div>

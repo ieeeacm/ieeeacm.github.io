@@ -118,16 +118,14 @@
     <div class="col s12" id="blog-post">
       <h5 class="blog-label">LATEST BLOG POST</h5>
       {% for post in site.posts limit:1 %}
-      <div class="post">
-        <a href="{{ post.url }}" class="post-link"><h3 class="post-title">{{ post.title }}</h3></a>
-
-        <p class="post-details flow-text">{{ post.date | date: "%b %-d, %Y" }}</p>
-        {{ post.content }}
-
-      </div>
+        {% include preview.html post=post %}
       {% endfor %}
-      <div class="divider hide-on-med-and-up"></div>
-      <h5 class="right-align"><a href="blog.html" class="blog-btn">See the full blog</a></h5>
+      <div class="recent-posts">
+        <h6 class="blog-label">OTHER RECENT POSTS</h6>
+        {% for post in site.posts offset:1 limit:2 %}
+          <h5><a href="{{ post.url }}" class="post-link">{{ post.title }}</a></h5>
+        {% endfor %}
+      </div>
       <div class="divider"></div>
     </div>
   </div>

@@ -68,6 +68,14 @@ nav {
   font-family: $clearsans-med;
 }
 
+a.post-link {
+  color: #000 !important;
+  &:hover {
+    text-decoration: none !important;
+    color: $ieee-base;
+  }
+}
+
 .post {
   color: #000 !important;
   font-family: $clearsans-lite !important;
@@ -76,14 +84,6 @@ nav {
     color: $ieee-base;
     &:hover {
       text-decoration: underline;
-    }
-  }
-
-  a.post-link {
-    color: inherit;
-    &:hover {
-      text-decoration: none;
-      color: $ieee-base;
     }
   }
 
@@ -105,6 +105,24 @@ nav {
     max-width: 100%;
     height: auto !important;
   }
+}
+
+.read-more {
+  margin-top: -0.75rem;
+
+  a {
+    opacity: .54;
+    color: #000 !important;
+    &:hover {
+      opacity: .7;
+      text-decoration: none !important;
+    }
+  }
+}
+
+.recent-posts {
+  margin-bottom: 3rem;
+  margin-top: 2.5rem;
 }
 
 @media #{$medium-and-down} {

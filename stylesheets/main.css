@@ -6227,6 +6227,12 @@ nav {
 .post-title {
   font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif; }
 
+a.post-link {
+  color: #000 !important; }
+  a.post-link:hover {
+    text-decoration: none !important;
+    color: #c1272d; }
+
 .post {
   color: #000 !important;
   font-family: "Clear Sans Light", "Source Sans Pro", sans-serif !important; }
@@ -6234,11 +6240,6 @@ nav {
     color: #c1272d; }
     .post a:hover {
       text-decoration: underline; }
-  .post a.post-link {
-    color: inherit; }
-    .post a.post-link:hover {
-      text-decoration: none;
-      color: #c1272d; }
   .post div[style], .post span[style] {
     color: #000 !important;
     font-family: "Clear Sans Light", "Source Sans Pro", sans-serif !important; }
@@ -6253,6 +6254,19 @@ nav {
   .post img[style] {
     max-width: 100%;
     height: auto !important; }
+
+.read-more {
+  margin-top: -0.75rem; }
+  .read-more a {
+    opacity: .54;
+    color: #000 !important; }
+    .read-more a:hover {
+      opacity: .7;
+      text-decoration: none !important; }
+
+.recent-posts {
+  margin-bottom: 3rem;
+  margin-top: 2.5rem; }
 
 @media only screen and (max-width: 992px) {
   #application input {
