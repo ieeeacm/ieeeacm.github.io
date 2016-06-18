@@ -18,6 +18,6 @@ $(document).ready(function() {
 
     // We probably still need this part though
     $('p img', '.post').addClass('center-block z-depth-1');
-    $('div img', '.post').wrapAll("<div class='blog-image-padding' />");
+    $('p img', '.post').unwrap().wrapAll("<div class='blog-image-padding' />");
 
 });
