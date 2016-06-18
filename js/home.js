@@ -4,18 +4,14 @@ $(document).ready(function() {
     calendarid = 'ncvkteq0hm7cgr5bhi00bgbaik@group.calendar.google.com';
 
     var officers = [
-        {id: 'hlee', name: 'Harlin Lee', position: 'President', image: 'hlee.jpg'},
-        {id: 'kng', name: 'Kevin Ng', position: 'Vice President', image: 'kng.jpg'},
-        {id: 'igarza', name: 'Isaac Garza', position: 'Treasurer', image: 'igarza.jpg'},
-        {id: 'pzhao', name: 'Parker Zhao', position: 'External Relations', image: 'pzhao.jpg'},
-        {id: 'clao', name: 'Czarina Lao', position: 'Secretary', image: 'clao.jpg'},
+        {id: 'kng', name: 'Kevin Ng', position: 'President', image: 'kng.jpg'},
+        {id: 'cwomack', name: 'Chris Womack', position: 'Vice President', image: 'cwomack.jpg'},
+        {id: 'pzhao', name: 'Parker Zhao', position: 'Advisor', image: 'pzhao.jpg'},
+        {id: 'clao', name: 'Czarina Lao', position: 'Treasurer', image: 'clao.jpg'},
+        {id: 'asaxena', name: 'Alisha Saxena', position: 'Secretary', image: 'asaxena.jpg'},
         {id: 'schen', name: 'Shirley Chen', position: 'Social Chair', image: 'schen.jpg'},
-        {id: 'makengin', name: 'Efe Akengin', position: 'Social Chair', image: 'makengin.jpg'},
-        {id: 'mlao', name: 'Natalie Lao', position: 'Chairwoman', image: 'mlao.jpg'},
-        {id: 'hmoncivais', name: 'Hiram Moncivais', position: 'Historian', image: 'hmoncivais.png'},
         {id: 'kikhofua', name: 'Kamoya Ikhofua', position: 'Publicity Chair', image: 'kikhofua.jpg'},
-        {id: 'lchen', name: 'Lucy Chen', position: 'Publicity Chair', image: 'lchen.jpg'},
-        {id: 'cwomack', name: 'Chris Womack', position: 'Webmaster', image: 'cwomack.jpg'}
+        {id: 'lchen', name: 'Lucy Chen', position: 'Publicity Chair', image: 'lchen.jpg'}
     ];
 
     // SET UP EVENTS SECTION

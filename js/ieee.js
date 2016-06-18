@@ -1,3 +1,6 @@
+// This code was used for forcibly overriding CuteNews styles
+// it may not be necessary anymore
+
 $(document).ready(function() {
 
     $('.button-collapse').sideNav();
@@ -15,8 +18,5 @@ $(document).ready(function() {
 
     $('div img', '.post').addClass('center-block z-depth-1');
     $('div img', '.post').parent().addClass('blog-image-padding');
-
-    //Hide CuteNews accreditation (may be sliiiiiightly illegal)
-    $('a[href="http://cutephp.com/"]').parent().hide();
 
 });
