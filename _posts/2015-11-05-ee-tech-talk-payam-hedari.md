@@ -20,5 +20,8 @@ His research covers the design of terahertz/millimeter-wave/RF/analog integrated
 
 [payam@uci.edu][payam-email] &#124; [http://www.ece.uci.edu/~payam/][payam-site]
 
+![Prof. Heydari during his talk]({{ site.github.url }}/assets/payamhedari.jpg)
+![The attendees of Prof. Heydari's talk]({{ site.github.url }}/assets/payamaudience.jpg)
+
 [payam-email]: mailto:payam@uci.edu
 [payam-site]: http://www.ece.uci.edu/~payam/
