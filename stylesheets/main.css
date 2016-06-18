@@ -6247,10 +6247,10 @@ nav {
   opacity: .54;
   margin-top: -15px; }
 
-.post p img {
+.post img {
   max-width: 100%;
   height: auto !important; }
-  .post p img[style] {
+  .post img[style] {
     max-width: 100%;
     height: auto !important; }
 
