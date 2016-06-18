@@ -119,7 +119,7 @@
       <div class="post">
         <h3 class="post-title">{{ post.title }}</h3>
 
-        <p class="post-details flow-text">{{ post.date }}</p>
+        <p class="post-details flow-text">{{ post.date | date: "%b %-d, %Y" }}</p>
         {{ post.content }}
 
       </div>
