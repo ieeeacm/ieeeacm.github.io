@@ -79,6 +79,14 @@ nav {
     }
   }
 
+  a.post-link {
+    color: inherit;
+    &:hover {
+      text-decoration: none;
+      color: $ieee-base;
+    }
+  }
+
   div[style], span[style] {
     color: #000 !important;
     font-family: $clearsans-lite !important;

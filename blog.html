@@ -46,7 +46,7 @@
     {% for post in site.posts %}
     <div class="col s12">
       <div class="post">
-        <a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
+        <a href="{{ post.url }}" class="post-link"><h3 class="post-title">{{ post.title }}</h3></a>
 
         <p class="post-details flow-text">{{ post.date | date: "%b %-d, %Y" }}</p>
         {{ post.content }}
