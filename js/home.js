@@ -167,7 +167,7 @@ $(document).ready(function() {
 
         $inputs.prop('disabled', true);
 
-        $.post('register.php', data)
+        $.post('http://ieee.scripts.mit.edu/register.php', data)
             .always(function () {
                 $inputs.prop('disabled', false);
             })
