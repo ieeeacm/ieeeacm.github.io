@@ -1,0 +1,27 @@
+.main {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.post {
+  .post-title {
+    font-size: 31px;
+  }
+
+  .post-details, .read-more {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.divider {
+    margin-bottom: 30px;
+}
+
+ul.pagination li.active {
+    background-color: #c1272d;
+    color: #fff;
+}

@@ -1,7 +1,7 @@
 <div class="post">
     <h3 class="post-title"><a href="{{ include.post.url }}" class="post-link">{{ include.post.title }}</a></h3>
 
-    <p class="post-details flow-text">{{ include.post.date | date: "%b %-d, %Y" }}</p>
+    <p class="post-details">{{ include.post.date | date: "%b %-d, %Y" }}</p>
     {{ include.post.excerpt }}
     <h6 class="read-more"><a href="{{ include.post.url }}">Read more...</a></h6>
 

@@ -5,6 +5,11 @@ body {
   font-family: $clearsans;
 }
 
+.welcome p {
+  font-family: $clearsans-lite;
+  font-size: 18px;
+}
+
 .welcome a, a.subscribe-link {
   color: $ieee-base;
   &:hover {
@@ -244,13 +249,30 @@ a.join {
   }
 }
 
-#blog-post .pagination {
-  display: none;
+#blog-post {
+  margin-bottom: 3rem;
+}
+
+.post {
+  .post-title {
+    font-size: 36px;
+  }
+
+  .post-details, .read-more {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 21px;
+  }
 }
 
 .recent-posts {
-  margin-bottom: 3rem;
-  margin-top: 2.5rem;
+  margin-top: 0.5rem;
+
+  .blog-label {
+    margin-bottom: 1rem;
+  }
 
   a.post-link {
     font-family: $clearsans-lite;
@@ -258,7 +280,6 @@ a.join {
 }
 
 @media only screen and (max-width: 600px) {
-  a.blog-btn {  padding: 0 0.5rem !important; }
 
   .app-text { display: none;  }
 

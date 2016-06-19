@@ -32,6 +32,10 @@
 body {
   font-family: "Clear Sans", "Source Sans Pro", sans-serif; }
 
+.welcome p {
+  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif;
+  font-size: 18px; }
+
 .welcome a, a.subscribe-link {
   color: #c1272d; }
   .welcome a:hover, a.subscribe-link:hover {
@@ -212,19 +216,24 @@ a.join {
     .programs-list li a:hover {
       color: #c1272d; }
 
-#blog-post .pagination {
-  display: none; }
+#blog-post {
+  margin-bottom: 3rem; }
+
+.post .post-title {
+  font-size: 36px; }
+.post .post-details, .post .read-more {
+  font-size: 18px; }
+.post p {
+  font-size: 21px; }
 
 .recent-posts {
-  margin-bottom: 3rem;
-  margin-top: 2.5rem; }
+  margin-top: 0.5rem; }
+  .recent-posts .blog-label {
+    margin-bottom: 1rem; }
   .recent-posts a.post-link {
     font-family: "Clear Sans Light", "Source Sans Pro", sans-serif; }
 
 @media only screen and (max-width: 600px) {
-  a.blog-btn {
-    padding: 0 0.5rem !important; }
-
   .app-text {
     display: none; }
 

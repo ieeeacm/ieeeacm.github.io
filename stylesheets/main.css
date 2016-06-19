@@ -6240,9 +6240,6 @@ a.post-link {
     color: #c1272d; }
     .post a:hover {
       text-decoration: underline; }
-  .post div[style], .post span[style] {
-    color: #000 !important;
-    font-family: "Clear Sans Light", "Source Sans Pro", sans-serif !important; }
 
 .post-details {
   opacity: .54;
@@ -6251,9 +6248,6 @@ a.post-link {
 .post img {
   max-width: 100%;
   height: auto !important; }
-  .post img[style] {
-    max-width: 100%;
-    height: auto !important; }
 
 .read-more {
   margin-top: -0.75rem; }

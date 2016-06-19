@@ -86,11 +86,6 @@ a.post-link {
       text-decoration: underline;
     }
   }
-
-  div[style], span[style] {
-    color: #000 !important;
-    font-family: $clearsans-lite !important;
-  }
 }
 
 .post-details {
@@ -101,10 +96,6 @@ a.post-link {
 .post img {
   max-width: 100%;
   height: auto !important;
-  &[style] {
-    max-width: 100%;
-    height: auto !important;
-  }
 }
 
 .read-more {
