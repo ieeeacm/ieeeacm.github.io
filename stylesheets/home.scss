@@ -77,6 +77,42 @@ a.join {
   }
 }
 
+.no-events {
+  width: 100%;
+  position: relative;
+}
+
+.no-events:after {
+  padding-bottom: 50%;
+  display: block;
+  content: "";
+}
+
+.no-events-message {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  font-family: $clearsans-lite;
+
+  a {
+    color: $ieee-base;
+    opacity: 1;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  span {
+    opacity: .54;
+  }
+}
+
 .event-list {
   margin-left: 0;
   margin-right: 0;
@@ -212,14 +248,12 @@ a.join {
   display: none;
 }
 
-a.blog-btn {
-  margin-top: 3rem;
-  color: $ieee-base;
-  font-family: $clearsans-lite;
-  display: inline-block;
+.recent-posts {
+  margin-bottom: 3rem;
+  margin-top: 2.5rem;
 
-  &:hover {
-    text-decoration: underline;
+  a.post-link {
+    font-family: $clearsans-lite;
   }
 }
 

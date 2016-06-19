@@ -54,26 +54,32 @@ $(document).ready(function() {
         pages.push(events.slice(k,k+chunk));
     }
 
-    // Handlebars
-    var carouselTemplate = $('#carousel-template').html();
-    var carouselHandlebars = Handlebars.compile(carouselTemplate);
-    pages.forEach(function(events) {
-        var context;
-        if (events.length) {
-            context = {events: events};
-            $('.carousel-nav-container', '.event-list').before(carouselHandlebars(context));
-        }
-    });
+    // Handlebars (only necessary if we have upcoming events)
+    if (pages.length) {
+        var carouselTemplate = $('#carousel-template').html();
+        var carouselHandlebars = Handlebars.compile(carouselTemplate);
+        pages.forEach(function (events) {
+            var context;
+            if (events.length) {
+                context = {events: events};
+                $('.carousel-nav-container', '.event-list').before(carouselHandlebars(context));
+            }
+        });
 
-    // Initialize carousel
-    $('.event-list', '.events').slick({
-        slide: '.carousel-group',
-        arrows: true, dots: true,
-        prevArrow: '<span class="carousel-prev"><i class="material-icons">chevron_left</i></span>',
-        nextArrow: '<span class="carousel-next"><i class="material-icons">chevron_right</i></span>',
-        appendArrows: '.event-list .carousel-nav',
-        appendDots: '.event-list .carousel-nav'
-    });
+        // Initialize carousel
+        $('.event-list', '.events').slick({
+            slide: '.carousel-group',
+            arrows: true, dots: true,
+            prevArrow: '<span class="carousel-prev"><i class="material-icons">chevron_left</i></span>',
+            nextArrow: '<span class="carousel-next"><i class="material-icons">chevron_right</i></span>',
+            appendArrows: '.event-list .carousel-nav',
+            appendDots: '.event-list .carousel-nav'
+        });
+    } else {
+        var noEventsTemplate = $('#no-events-template').html();
+        var noEventsHandlebars = Handlebars.compile(noEventsTemplate);
+        $('.event-list', '.events').html(noEventsHandlebars());
+    }
 
     // APPLICATION MODAL
     $('.modal-trigger').leanModal({
@@ -183,5 +189,5 @@ $(document).ready(function() {
     var execTemplate = $('#exec-template').html();
     var execHandlebars = Handlebars.compile(execTemplate);
     var execCards = execHandlebars({officers: officers});
-    $('#exec.row').html(execCards);
+    //$('#exec.row').html(execCards);
 });

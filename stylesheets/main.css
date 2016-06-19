@@ -6264,10 +6264,6 @@ a.post-link {
       opacity: .7;
       text-decoration: none !important; }
 
-.recent-posts {
-  margin-bottom: 3rem;
-  margin-top: 2.5rem; }
-
 @media only screen and (max-width: 992px) {
   #application input {
     font-size: 1.3rem; } }
