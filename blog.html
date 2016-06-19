@@ -43,18 +43,10 @@
 
 <div class="main container">
   <div class="row">
-    <!--<div class="col s12">-->
-    <!--<div class="post">-->
-    <!--<a href="{{ post.url }}" class="post-link"><h3 class="post-title">{{ post.title }}</h3></a>-->
-
-    <!--<p class="post-details flow-text">{{ post.date | date: "%b %-d, %Y" }}</p>-->
-    <!--{{ post.content }}-->
-
-    <!--</div>-->
-    <!--<div class="divider"></div>-->
-    <!--</div>-->
     {% for post in site.posts %}
-      {% include preview.html post=post %}
+      <div class="col s12">
+        {% include preview.html post=post %}
+      </div>
     {% endfor %}
   </div>
 </div>
