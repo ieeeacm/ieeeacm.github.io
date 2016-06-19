@@ -219,13 +219,6 @@ a.join {
 #blog-post {
   margin-bottom: 3rem; }
 
-.post .post-title {
-  font-size: 36px; }
-.post .post-details, .post .read-more {
-  font-size: 18px; }
-.post p {
-  font-size: 21px; }
-
 .recent-posts {
   margin-top: 0.5rem;
   margin-bottom: 3rem; }

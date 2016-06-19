@@ -3,58 +3,14 @@
 @import "materialize";
 @import "colors";
 
-.main {
+.main, .post-container {
   padding-top: 20px;
   padding-bottom: 6rem;
 }
 
 @media #{$medium-and-up} {
-  .single-post-container {
+  .post-container {
     width: 700px !important;
-  }
-}
-
-.post {
-  .post-title {
-    font-size: 31px;
-  }
-
-  .post-details, .read-more {
-    font-size: 16px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-}
-
-.single-post {
-  .post-title {
-    font-size: 36px;
-  }
-
-  .post-details, .read-more {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 21px;
-  }
-}
-
-@media #{$small-and-down} {
-  .post, .single-post {
-    .post-title {
-      font-size: 28px;
-    }
-
-    .post-details, .read-more {
-      font-size: 16px;
-    }
-
-    p {
-      font-size: 18px;
-    }
   }
 }
 

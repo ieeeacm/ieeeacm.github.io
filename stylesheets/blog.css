@@ -6179,34 +6179,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
-.main {
+.main, .post-container {
   padding-top: 20px;
   padding-bottom: 6rem; }
 
 @media only screen and (min-width: 601px) {
-  .single-post-container {
+  .post-container {
     width: 700px !important; } }
-.post .post-title {
-  font-size: 31px; }
-.post .post-details, .post .read-more {
-  font-size: 16px; }
-.post p {
-  font-size: 18px; }
-
-.single-post .post-title {
-  font-size: 36px; }
-.single-post .post-details, .single-post .read-more {
-  font-size: 18px; }
-.single-post p {
-  font-size: 21px; }
-
-@media only screen and (max-width: 600px) {
-  .post .post-title, .single-post .post-title {
-    font-size: 28px; }
-  .post .post-details, .post .read-more, .single-post .post-details, .single-post .read-more {
-    font-size: 16px; }
-  .post p, .single-post p {
-    font-size: 18px; } }
 #disqus_thread {
   margin-top: 3rem; }
 

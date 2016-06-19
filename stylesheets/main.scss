@@ -86,6 +86,34 @@ a.post-link {
       text-decoration: underline;
     }
   }
+
+  .post-title {
+    font-size: 36px;
+  }
+
+  .post-details, .read-more {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 21px;
+  }
+}
+
+@media #{$small-and-down} {
+  .post {
+    .post-title {
+      font-size: 28px;
+    }
+
+    .post-details, .read-more {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
 }
 
 .post-details {
