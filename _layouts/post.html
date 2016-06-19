@@ -2,12 +2,13 @@
 layout: default
 ---
 <div class="col s12">
-  <div class="post">
+  <div class="single-post">
     <h3 class="post-title">{{ page.title }}</h3>
 
-    <p class="post-details flow-text">{{ page.date | date: "%b %-d, %Y" }}</p>
+    <p class="post-details">{{ page.date | date: "%b %-d, %Y" }}</p>
     {{ content }}
 
+    <div class="divider"></div>
     {% include disqus.html %}
   </div>
 </div>

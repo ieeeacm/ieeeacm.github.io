@@ -227,7 +227,8 @@ a.join {
   font-size: 21px; }
 
 .recent-posts {
-  margin-top: 0.5rem; }
+  margin-top: 0.5rem;
+  margin-bottom: 3rem; }
   .recent-posts .blog-label {
     margin-bottom: 1rem; }
   .recent-posts a.post-link {

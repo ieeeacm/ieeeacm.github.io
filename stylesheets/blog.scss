@@ -1,6 +1,17 @@
+@import "clearsans";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic');
+@import "materialize";
+@import "colors";
+
 .main {
   padding-top: 20px;
   padding-bottom: 40px;
+}
+
+@media #{$medium-and-up} {
+  .single-post-container {
+    width: 700px;
+  }
 }
 
 .post {
@@ -17,11 +28,45 @@
   }
 }
 
+.single-post {
+  .post-title {
+    font-size: 36px;
+  }
+
+  .post-details, .read-more {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 21px;
+  }
+}
+
+@media #{$small-and-down} {
+  .post, .single-post {
+    .post-title {
+      font-size: 28px;
+    }
+
+    .post-details, .read-more {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+#disqus-thread {
+  margin-top: 3rem;
+}
+
 .divider {
-    margin-bottom: 30px;
+    margin-top: 3rem;
 }
 
 ul.pagination li.active {
-    background-color: #c1272d;
+    background-color: $ieee-base;
     color: #fff;
 }
