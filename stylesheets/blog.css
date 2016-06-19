@@ -6181,11 +6181,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em; } }
 .main {
   padding-top: 20px;
-  padding-bottom: 40px; }
+  padding-bottom: 6rem; }
 
 @media only screen and (min-width: 601px) {
   .single-post-container {
-    width: 700px; } }
+    width: 700px !important; } }
 .post .post-title {
   font-size: 31px; }
 .post .post-details, .post .read-more {
@@ -6207,7 +6207,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     font-size: 16px; }
   .post p, .single-post p {
     font-size: 18px; } }
-#disqus-thread {
+#disqus_thread {
   margin-top: 3rem; }
 
 .divider {

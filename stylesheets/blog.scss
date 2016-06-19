@@ -5,12 +5,12 @@
 
 .main {
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 6rem;
 }
 
 @media #{$medium-and-up} {
   .single-post-container {
-    width: 700px;
+    width: 700px !important;
   }
 }
 
@@ -58,7 +58,7 @@
   }
 }
 
-#disqus-thread {
+#disqus_thread {
   margin-top: 3rem;
 }
 
