@@ -8,5 +8,6 @@ layout: default
     <p class="post-details flow-text">{{ page.date | date: "%b %-d, %Y" }}</p>
     {{ content }}
 
+    {% include disqus.html %}
   </div>
 </div>
