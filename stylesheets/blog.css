@@ -6179,13 +6179,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
-.main, .post-container {
+.main {
   padding-top: 20px;
   padding-bottom: 6rem; }
 
 @media only screen and (min-width: 601px) {
   .post-container {
-    width: 700px !important; } }
+    width: 700px !important;
+    padding-bottom: 6rem; } }
 #disqus_thread {
   margin-top: 3rem; }
 

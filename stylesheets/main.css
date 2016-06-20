@@ -6230,8 +6230,7 @@ nav {
 a.post-link {
   color: #000 !important; }
   a.post-link:hover {
-    text-decoration: none !important;
-    color: #c1272d !important; }
+    text-decoration: un !important; }
 
 .post {
   color: #000 !important;
