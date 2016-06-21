@@ -214,7 +214,7 @@ a.join {
     font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif;
     font-size: 1.64rem; }
     .programs-list li a:hover {
-      color: #c1272d; }
+      text-decoration: underline !important; }
 
 #blog-post {
   margin-bottom: 3rem; }

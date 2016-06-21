@@ -244,7 +244,7 @@ a.join {
     font-family: $clearsans-med;
     font-size: 1.64rem;
     &:hover {
-      color: $ieee-base;
+      text-decoration: underline !important;
     }
   }
 }

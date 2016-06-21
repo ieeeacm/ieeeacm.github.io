@@ -2,6 +2,7 @@
 layout: post
 title: "EE Tech Talk with Prof. Heydari and IEEE MTT-s Boston Chapter"
 date: "2015-11-05"
+category: 6-1
 ---
 Thank you to Professor Heydari for the talk, and Kevin and Rui from the IEEE Microwave Theory and Techniques Society(MTT-s) Boston section for organizing! We are always looking for more opportunities to be involved with the greater IEEE organization.
 <!--more-->

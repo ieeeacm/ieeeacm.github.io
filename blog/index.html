@@ -43,11 +43,17 @@
 
 <div class="main container">
   <div class="row">
+    <div class="col m4 l4 hide-on-small-only">
+      <p>Categories:</p>
+    </div>
+    <div class="col s12 m8 l8">
     {% for post in site.posts %}
-      <div class="col s12 m8 l8">
+      <div class="col s12">
         {% include preview.html post=post %}
       </div>
+      <div class="divider post-divider col s12"></div>
     {% endfor %}
+    </div>
   </div>
 </div>
 

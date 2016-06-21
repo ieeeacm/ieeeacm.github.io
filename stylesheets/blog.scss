@@ -5,12 +5,15 @@
 
 .main {
   padding-top: 20px;
-  padding-bottom: 6rem;
 }
 
-@media #{$medium-and-up} {
+@media (min-width: 768px) {
   .post-container {
     width: 700px !important;
+    padding-bottom: 6rem;
+  }
+
+  .main {
     padding-bottom: 6rem;
   }
 }
@@ -19,8 +22,12 @@
   margin-top: 3rem;
 }
 
-.divider {
-    margin-top: 3rem;
+.comment-divider {
+  margin-top: 3rem;
+}
+
+.post-divider {
+  margin-top: 2rem;
 }
 
 ul.pagination li.active {

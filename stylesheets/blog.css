@@ -6180,18 +6180,23 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 .main {
-  padding-top: 20px;
-  padding-bottom: 6rem; }
+  padding-top: 20px; }
 
-@media only screen and (min-width: 601px) {
+@media (min-width: 768px) {
   .post-container {
     width: 700px !important;
+    padding-bottom: 6rem; }
+
+  .main {
     padding-bottom: 6rem; } }
 #disqus_thread {
   margin-top: 3rem; }
 
-.divider {
+.comment-divider {
   margin-top: 3rem; }
+
+.post-divider {
+  margin-top: 2rem; }
 
 ul.pagination li.active {
   background-color: #c1272d;
