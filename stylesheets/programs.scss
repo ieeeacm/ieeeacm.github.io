@@ -1,10 +1,10 @@
-@import "clearsans";
+@import "fonts";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic');
 @import "materialize";
 @import "colors";
 
 body {
-  font-family: 'Clear Sans', sans-serif;
+  font-family: $trueno-ultralite;
   background: #fff;
   color: #000;
 }
@@ -18,11 +18,11 @@ body {
 }
 
 .program-title {
-  font-family: $clearsans-med;
+  font-family: $trueno-semibold;
 }
 
 .program-desc {
-  font-family: $clearsans-lite;
+  font-family: $trueno-ultralite;
   margin-top: 2rem !important;
 }
 

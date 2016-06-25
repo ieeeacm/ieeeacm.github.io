@@ -23,39 +23,43 @@ $(document).ready(function() {
     });
 
     // Format event data for use later
-    events.map(function(event) {
-        var start = event.start.dateTime.split(' '),
-            end = event.end.dateTime.split(' '),
-            month, day, startTime, timeSuffix, endTime, time;
+    if(events) {
+        events.map(function (event) {
+            var start = event.start.dateTime.split(' '),
+                end = event.end.dateTime.split(' '),
+                month, day, startTime, timeSuffix, endTime, time;
 
-        month = start[1].substring(0, 3);
-        day = start[2].substring(0, 2);
+            month = start[1].substring(0, 3);
+            day = start[2].substring(0, 2);
 
-        startTime = start[5] + " " + start[6];
-        timeSuffix = new RegExp(" " + end[6], 'g');
-        startTime = startTime.replace(timeSuffix, ""); // if they have the same suffix, remove the first occurrence
-        endTime = end[5] + " " + end[6];
-        time = startTime + "-" + endTime;
+            startTime = start[5] + " " + start[6];
+            timeSuffix = new RegExp(" " + end[6], 'g');
+            startTime = startTime.replace(timeSuffix, ""); // if they have the same suffix, remove the first occurrence
+            endTime = end[5] + " " + end[6];
+            time = startTime + "-" + endTime;
 
-        event['month'] = month;
-        event['day'] = day;
-        event['time'] = time.replace(/:00/g, "");
+            event['month'] = month;
+            event['day'] = day;
+            event['time'] = time.replace(/:00/g, "");
 
-        if(!event.location) {
-            event.location = 'TBA';
-        }
+            if (!event.location) {
+                event.location = 'TBA';
+            }
 
-        return event;
-    });
+            return event;
+        });
+    }
 
     // Split into sections of 5 events
-    var k, q, pages = [], chunk = 5;
-    for (k=0,q=events.length; k<q; k+=chunk) {
-        pages.push(events.slice(k,k+chunk));
+    if (events) {
+        var k, q, pages = [], chunk = 5;
+        for (k = 0, q = events.length; k < q; k += chunk) {
+            pages.push(events.slice(k, k + chunk));
+        }
     }
 
     // Handlebars (only necessary if we have upcoming events)
-    if (pages.length) {
+    if (pages/*.length*/) {
         var carouselTemplate = $('#carousel-template').html();
         var carouselHandlebars = Handlebars.compile(carouselTemplate);
         pages.forEach(function (events) {

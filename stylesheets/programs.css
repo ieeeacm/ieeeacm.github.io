@@ -1,35 +1,6 @@
+@import url("https://fontlibrary.org/face/trueno");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic");
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-Regular.eot");
-  src: url("../fonts/clearsans/ClearSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Regular.woff") format("woff"), url("../fonts/clearsans/ClearSans-Regular.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Regular.svg#ClearSans-Regular") format("svg");
-  font-weight: 400; }
-@font-face {
-  font-family: 'Clear Sans Bold';
-  src: url("../fonts/clearsans/ClearSans-Bold.eot");
-  src: url("../fonts/clearsans/ClearSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Bold.woff") format("woff"), url("../fonts/clearsans/ClearSans-Bold.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Bold.svg#ClearSans-Bold") format("svg");
-  font-weight: 700; }
-@font-face {
-  font-family: 'Clear Sans Light';
-  src: url("../fonts/clearsans/ClearSans-Light.eot");
-  src: url("../fonts/clearsans/ClearSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Light.woff") format("woff"), url("../fonts/clearsans/ClearSans-Light.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Light.svg#ClearSans-Light") format("svg");
-  font-weight: 300; }
-@font-face {
-  font-family: 'Clear Sans Medium';
-  src: url("../fonts/clearsans/ClearSans-Medium.eot");
-  src: url("../fonts/clearsans/ClearSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Medium.woff") format("woff"), url("../fonts/clearsans/ClearSans-Medium.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Medium.svg#ClearSans-Medium") format("svg");
-  font-weight: 500; }
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-Italic.eot");
-  src: url("../fonts/clearsans/ClearSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Italic.woff") format("woff"), url("../fonts/clearsans/ClearSans-Italic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Italic.svg#ClearSans-Italic") format("svg");
-  font-style: italic; }
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot");
-  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-BoldItalic.woff") format("woff"), url("../fonts/clearsans/ClearSans-BoldItalic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-BoldItalic.svg#ClearSans-BoldItalic") format("svg");
-  font-weight: 700;
-  font-style: italic; }
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -4168,8 +4139,8 @@ textarea.materialize-textarea {
   input[type=number]:focus:not([readonly]),
   input[type=search]:focus:not([readonly]),
   textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #d4686c;
-    box-shadow: 0 1px 0 0 #d4686c; }
+    border-bottom: 1px solid #c1272d;
+    box-shadow: 0 1px 0 0 #c1272d; }
   input:not([type]):focus:not([readonly]) + label,
   input[type=text]:focus:not([readonly]) + label,
   input[type=password]:focus:not([readonly]) + label,
@@ -4183,7 +4154,7 @@ textarea.materialize-textarea {
   input[type=number]:focus:not([readonly]) + label,
   input[type=search]:focus:not([readonly]) + label,
   textarea.materialize-textarea:focus:not([readonly]) + label {
-    color: #d4686c; }
+    color: #c1272d; }
   input:not([type]).valid, input:not([type]):focus.valid,
   input[type=text].valid,
   input[type=text]:focus.valid,
@@ -4349,7 +4320,7 @@ textarea.materialize-textarea {
     font-size: 2rem;
     transition: color .2s; }
     .input-field .prefix.active {
-      color: #d4686c; }
+      color: #c1272d; }
   .input-field .prefix ~ input,
   .input-field .prefix ~ textarea {
     margin-left: 3rem;
@@ -6180,7 +6151,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 body {
-  font-family: 'Clear Sans', sans-serif;
+  font-family: "TruenoUltraLight", sans-serif;
   background: #fff;
   color: #000; }
 
@@ -6190,10 +6161,10 @@ body {
     text-decoration: underline; }
 
 .program-title {
-  font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif; }
+  font-family: "TruenoSemiBold", sans-serif; }
 
 .program-desc {
-  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif;
+  font-family: "TruenoUltraLight", sans-serif;
   margin-top: 2rem !important; }
 
 .program-exec {

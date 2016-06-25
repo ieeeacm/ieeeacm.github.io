@@ -1,39 +1,10 @@
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-Regular.eot");
-  src: url("../fonts/clearsans/ClearSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Regular.woff") format("woff"), url("../fonts/clearsans/ClearSans-Regular.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Regular.svg#ClearSans-Regular") format("svg");
-  font-weight: 400; }
-@font-face {
-  font-family: 'Clear Sans Bold';
-  src: url("../fonts/clearsans/ClearSans-Bold.eot");
-  src: url("../fonts/clearsans/ClearSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Bold.woff") format("woff"), url("../fonts/clearsans/ClearSans-Bold.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Bold.svg#ClearSans-Bold") format("svg");
-  font-weight: 700; }
-@font-face {
-  font-family: 'Clear Sans Light';
-  src: url("../fonts/clearsans/ClearSans-Light.eot");
-  src: url("../fonts/clearsans/ClearSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Light.woff") format("woff"), url("../fonts/clearsans/ClearSans-Light.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Light.svg#ClearSans-Light") format("svg");
-  font-weight: 300; }
-@font-face {
-  font-family: 'Clear Sans Medium';
-  src: url("../fonts/clearsans/ClearSans-Medium.eot");
-  src: url("../fonts/clearsans/ClearSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Medium.woff") format("woff"), url("../fonts/clearsans/ClearSans-Medium.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Medium.svg#ClearSans-Medium") format("svg");
-  font-weight: 500; }
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-Italic.eot");
-  src: url("../fonts/clearsans/ClearSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Italic.woff") format("woff"), url("../fonts/clearsans/ClearSans-Italic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Italic.svg#ClearSans-Italic") format("svg");
-  font-style: italic; }
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot");
-  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-BoldItalic.woff") format("woff"), url("../fonts/clearsans/ClearSans-BoldItalic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-BoldItalic.svg#ClearSans-BoldItalic") format("svg");
-  font-weight: 700;
-  font-style: italic; }
+@import url("https://fontlibrary.org/face/trueno");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 body {
-  font-family: "Clear Sans", "Source Sans Pro", sans-serif; }
+  font-family: "TruenoUltraLight", sans-serif; }
 
 .welcome p {
-  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif;
+  font-family: "TruenoUltraLight", sans-serif;
   font-size: 18px; }
 
 .welcome a, a.subscribe-link {
@@ -42,7 +13,7 @@ body {
     text-decoration: underline; }
 
 .container h1 {
-  font-family: "Clear Sans Bold", "Source Sans Pro", sans-serif; }
+  font-family: "TruenoExtraBold", sans-serif; }
 
 a.join {
   color: #fff !important;
@@ -65,7 +36,7 @@ a.join {
   padding-bottom: 0; }
 
 .submit-app {
-  color: #d4686c !important; }
+  color: #c1272d !important; }
   .submit-app input:focus {
     outline: none; }
 
@@ -80,7 +51,7 @@ a.join {
   background: #fcf8e3;
   border-radius: 3px;
   padding: 5px 8px;
-  color: #8a6d3b;
+  color: #f7931f;
   display: none;
   margin-left: -500px; }
   #error-message i.material-icons {
@@ -103,7 +74,7 @@ a.join {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
-  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif; }
+  font-family: "TruenoUltraLight", sans-serif; }
   .no-events-message a {
     color: #c1272d;
     opacity: 1; }
@@ -111,8 +82,6 @@ a.join {
       text-decoration: underline; }
   .no-events-message p {
     margin: 0; }
-  .no-events-message span {
-    opacity: .54; }
 
 .event-list {
   margin-left: 0;
@@ -204,15 +173,15 @@ a.join {
   .carousel-nav .slick-dots {
     top: -5px; } }
 .programs-label, .events-label, .blog-label {
-  opacity: .54; }
+  opacity: .8; }
 
 .programs-list {
   margin: 0;
   padding-top: 1rem; }
   .programs-list li a {
-    color: #000;
-    font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif;
-    font-size: 1.64rem; }
+    color: #333539;
+    font-family: "TruenoRegular", sans-serif;
+    font-size: 24px; }
     .programs-list li a:hover {
       text-decoration: underline !important; }
 
@@ -224,8 +193,6 @@ a.join {
   margin-bottom: 3rem; }
   .recent-posts .blog-label {
     margin-bottom: 1rem; }
-  .recent-posts a.post-link {
-    font-family: "Clear Sans Light", "Source Sans Pro", sans-serif; }
 
 @media only screen and (max-width: 600px) {
   .app-text {

@@ -1,12 +1,12 @@
-@import 'clearsans';
+@import 'fonts';
 @import 'colors';
 
 body {
-  font-family: $clearsans;
+  font-family: $trueno-ultralite;
 }
 
 .welcome p {
-  font-family: $clearsans-lite;
+  font-family: $trueno-ultralite;
   font-size: 18px;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .container h1 {
-  font-family: $clearsans-bold;
+  font-family: $trueno-extrabold;
 }
 
 a.join {
@@ -49,7 +49,7 @@ a.join {
 }
 
 .submit-app {
-  color: $ieee-light !important;
+  color: $ieee-base !important;
 
   input:focus {
     outline: none;
@@ -71,7 +71,7 @@ a.join {
   background: #fcf8e3;
   border-radius: 3px;
   padding: 5px 8px;
-  color: #8a6d3b;
+  color: $ieee-warning;
   display: none;
   margin-left: -500px;
 
@@ -99,7 +99,7 @@ a.join {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
-  font-family: $clearsans-lite;
+  font-family: $trueno-ultralite;
 
   a {
     color: $ieee-base;
@@ -111,10 +111,6 @@ a.join {
 
   p {
     margin: 0;
-  }
-
-  span {
-    opacity: .54;
   }
 }
 
@@ -233,16 +229,16 @@ a.join {
 }
 
 .programs-label, .events-label, .blog-label {
-  opacity: .54;
+  opacity: .8;
 }
 
 .programs-list {
   margin: 0;
   padding-top: 1rem;
   li a {
-    color: #000;
-    font-family: $clearsans-med;
-    font-size: 1.64rem;
+    color: $ieee-dark-gray;
+    font-family: $trueno;
+    font-size: 24px;
     &:hover {
       text-decoration: underline !important;
     }
@@ -259,10 +255,6 @@ a.join {
 
   .blog-label {
     margin-bottom: 1rem;
-  }
-
-  a.post-link {
-    font-family: $clearsans-lite;
   }
 }
 
