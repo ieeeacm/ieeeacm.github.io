@@ -4,32 +4,36 @@
 @import "colors";
 
 body {
-	font-family: 'Clear Sans', sans-serif;
-	background: #fff;
-	color: #000;
+  font-family: 'Clear Sans', sans-serif;
+  background: #fff;
+  color: #000;
 }
 
 .container a {
-	color: #000;
+  color: #000;
 
-	&:hover {
-		text-decoration: underline;
-	}
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .program-title {
-	font-family: $clearsans-med;
+  font-family: $clearsans-med;
 }
 
 .program-desc {
-	font-family: $clearsans-lite;
-	margin-top: 2rem !important;
+  font-family: $clearsans-lite;
+  margin-top: 2rem !important;
 }
 
 .program-exec {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .program-section {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.small-exec-card {
+  padding: 10px !important;
 }
